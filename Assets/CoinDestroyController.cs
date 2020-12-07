@@ -15,7 +15,7 @@ public class CoinDestroyController : MonoBehaviour
     void Update()
     {
         this.unitychan = GameObject.Find("unitychan");
-        if (this.transform.position.z < this.unitychan.transform.position.z - 5)
+        if (this.transform.position.z < this.unitychan.transform.position.z - 3)
         {
             Destroy(this.gameObject);
         }

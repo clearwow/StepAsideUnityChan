@@ -4,7 +4,6 @@ using System.Collections;
 
 public class CoinController : MonoBehaviour
 {
-    private GameObject unitychan;
     // Use this for initialization
     void Start()
     {
